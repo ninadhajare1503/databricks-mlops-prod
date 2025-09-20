@@ -40,7 +40,7 @@ targets:
     variables:
       catalog_name: staging
     workspace:
-      host: https://adb-xxxx.xx.azuredatabricks.net
+      host: https://dbc-72efe024-1189.cloud.databricks.com
 
   prod:
     variables:
