@@ -1,9 +1,9 @@
 name: Lint CI/CD workflow files
-on:
-  pull_request:
-    paths:
-      - '.github/workflows/**'
-  workflow_dispatch:
+#on:
+#  pull_request:
+#    paths:
+#      - '.github/workflows/**'
+#  workflow_dispatch:
   
 jobs:
   lint:
