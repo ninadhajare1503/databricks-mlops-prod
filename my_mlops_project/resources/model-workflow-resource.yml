@@ -8,8 +8,6 @@ resources:
   jobs:
     model_training_job:
       name: ${bundle.target}-my_mlops_project-model-training-job
-      job_clusters:
-          <<: *new_cluster
       tasks:
         - task_key: Train
           notebook_task:
