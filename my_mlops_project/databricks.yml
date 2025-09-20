@@ -46,10 +46,10 @@ targets:
     variables:
       catalog_name: prod
     workspace:
-      host: https://adb-xxxx.xx.azuredatabricks.net
+      host: https://dbc-72efe024-1189.cloud.databricks.com
 
   test:
     variables:
       catalog_name: test
     workspace:
-      host: https://adb-xxxx.xx.azuredatabricks.net
+      host: https://dbc-72efe024-1189.cloud.databricks.com
